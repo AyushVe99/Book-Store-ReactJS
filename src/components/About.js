@@ -1,20 +1,9 @@
 import React, { useState, useEffect } from "react";
 import MarkDown from "react-markdown";
-import readmePath from "../data/README.md";
+
 
 const About = () => {
-  const [markDownText, setMarkDownText] = useState("");
-  useEffect(() => {
-    fetch(readmePath)
-      .then(response => {
-        return response.text();
-      })
-      .then(text => {
-        setMarkDownText(text);
-      });
 
-    document.title = "About || React BookStore App";
-  }, []);
 
   return (
     <div className="card container border-0">
