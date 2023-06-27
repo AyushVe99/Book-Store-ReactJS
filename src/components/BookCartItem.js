@@ -31,7 +31,7 @@ const BookCartItem = ({ cart }) => {
             By <Link to={"/author/" + authorId}>{authorName}</Link>
           </h6>
           <h5>Price: ₹{price}</h5>
-          <h5>Total Price: ₹{(price * newQuantity).toFixed(2)}</h5>
+          {/* <h5>Total Price: ₹{(price * newQuantity).toFixed(2)}</h5> */}
         </div>
         <div className="col-lg-3 col-md-3 col-sm-12 col-12 p-2">
           <input

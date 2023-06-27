@@ -36,15 +36,15 @@ const BookCartCheckOut = () => {
           <tbody>
             <tr>
               <td>Subtotal</td>
-              <td>${subtotal}</td>
+              <td>₹{subtotal}</td>
             </tr>
             <tr>
               <td>Shipping Cost</td>
-              <td>$0{shippingCost}</td>
+              <td>₹0{shippingCost}</td>
             </tr>
             <tr className="text-primary h4">
               <td>Total</td>
-              <td>${totalPrice}</td>
+              <td>₹{totalPrice}</td>
             </tr>
             <tr>
               <td>
@@ -56,7 +56,7 @@ const BookCartCheckOut = () => {
                 <button
                   className="btn btn-outline-info"
                 >
-                  <Link className="btn btn-outline-primary" to="/payment">
+                  <Link to="/payment">
                   Checkout
                 </Link>
                  
