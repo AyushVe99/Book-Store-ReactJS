@@ -1,7 +1,4 @@
-import React, { useState, useEffect } from "react";
-import MarkDown from "react-markdown";
-
-
+import React from "react";
 const About = () => {
 
 
